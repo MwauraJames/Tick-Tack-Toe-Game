@@ -48,7 +48,8 @@
 }
 .btn{
   border: none;
-  color: brown;
+  color: white;
+  background-color: brown;
   text-align: center;
   justify-content: center;
 }
