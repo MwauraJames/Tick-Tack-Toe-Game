@@ -47,5 +47,8 @@
   color: rgb(243, 8, 8);
 }
 .btn{
-  
+  border: none;
+  color: brown;
+  text-align: center;
+  justify-content: center;
 }
