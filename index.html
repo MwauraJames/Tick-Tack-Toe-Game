@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tick Tack Toe Game</title>
+    <link rel="stylesheet" href="styyles.css" />
+    <script src="test.js"></script>
+  </head>
+  <body>
+    <div class="cont">
+      <p class="text h">Game starts by just Tap a on box</p>
+      <p class="text">First Player starts as Player X And Second Player as Player O</p>
+      <label class="comp">Play against Computer.</label>
+      <input type="checkbox" id="check"/>
+    </div>
+    
+    <div class="grid-container">
+      <div class="grid-item" id="box1" onclick="funcbox1()"></div>
+      <div class="grid-item" id="box2" onclick="funcbox2()"></div>
+      <div class="grid-item lef" id="box3" onclick="funcbox3()"></div>
+      <div class="grid-item" id="box4" onclick="funcbox4()"></div>
+      <div class="grid-item" id="box5" onclick="funcbox5()"></div>
+      <div class="grid-item lef" id="box6" onclick="funcbox6()"></div>
+      <div class="grid-item bor" id="box7" onclick="funcbox7()"></div>
+      <div class="grid-item bor" id="box8" onclick="funcbox8()"div></div>
+      <div class="grid-item bor lef" id="box9" onclick="funcbox9()"></div>
+    </div>
+    <h2 id="dec"></h2>
+    <button class="btn" onclick=" refreshPage()">Reset</button>
+  </body>
+</html>
